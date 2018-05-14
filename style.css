@@ -1,0 +1,269 @@
+/* Layout */
+
+.item1 { grid-area: header; margin-top: -1.7vw; background-color: #ffffff; height: 10vw; width: 100%; }
+.item2 { grid-area: dice; height: 25%; width: 25%; margin-top: -12vw; margin-left: 65vw;}
+.item3 { grid-area: title; margin-top: -5vw;}
+.item4 { grid-area: a; width: 100%; margin: auto; align-content: center;}
+.item5 { grid-area: b; width: 100%; margin: auto; }
+.item6 { grid-area: c; width: 100%; margin: auto; }
+.item7 { grid-area: d; width: 100%; margin: auto; }
+.item8 { grid-area: e; width: 100%; margin: auto;}
+.item9 { grid-area: footer; margin: auto; }
+
+
+.grid1 {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'dice dice dice dice dice dice'
+    'title title title title title title'
+    'a a a a a a'
+    'b b b b b b'
+    'c c c c c c'
+    'd d d d d d'
+    'e e e e e e'
+    'footer footer footer footer footer footer';
+  grid-gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'dice dice dice dice dice dice'
+    'title title title title title title'
+    'a a a b b b'
+    'c c c b b b'
+    'c c c b b b'
+    'd d d d d d'
+    'e e e e e e'
+    'footer footer footer footer footer footer';
+  grid-gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'dice dice dice dice dice dice'
+    'title title title title title title'
+    'a a a b b b'
+    'c c c c c c'
+    'd d d d d d'
+    'e e e e e e'
+    'footer footer footer footer footer footer';
+  grid-gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid4 {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'dice dice dice dice dice dice'
+    'title title title title title title'
+    'a a a b b b'
+    'd d d d d d'
+    'c c c c c c'
+    'e e e e e e'
+    'footer footer footer footer footer footer';
+  grid-gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid5 {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'dice dice dice dice dice dice'
+    'title title title title title title'
+    'a a a b b b'
+    'c c c d d d'
+    'footer footer footer footer footer footer';
+  grid-gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+.dec {
+  width: 50%;
+  margin: auto;
+}
+
+#create {
+  margin-top: 3.8vw;
+}
+
+/* table */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 0px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+.home_button {
+  text-align: right;
+  font-size: 2vw;
+  font-family: sans-serif;
+  color: black;
+  opacity: .5;
+  text-transform: uppercase;
+  margin-top: -10vw;
+  margin-right: 2vw;
+}
+.number {
+  height: 8%;
+  width: 10%;
+}
+
+.page-title {
+  margin-top: -12.5vw;
+  margin-left: 12.5vw;
+}
+
+a.pt:link {color: blue; text-decoration: none; }
+a.pt:visited {color: grey; text-decoration: none; }
+a.pt:hover {color: blue; text-decoration: underline; }
+a.pt:active {color: black; }
+
+.group {
+  line-height: 5%;
+  margin-top: -6vw;
+}
+
+.tools {
+  line-height: normal;
+
+}
+
+
+ul.no-bullet {
+  margin-left: -1.5vw;
+  list-style: none;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button1 {
+    background-color: white;
+    color: black;
+    width: 150px;
+    border: 2px solid #e7e7e7;
+}
+
+.button1:hover {background-color: #e7e7e7;}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+}
+
+/* mouse over link */
+a:hover {
+    color: #003366;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+/* Headers */
+h1 {
+font-family: sans-serif;
+font: helvetica;
+font-weight: bold;
+color: #000000;
+font-Size: 6vw;
+text-transform: uppercase;
+}
+
+h2 {
+font-family: sans-serif;
+font: helvetica;
+font-weight: bold;
+color: #000000;
+font-Size: 5vw;
+text-transform: uppercase;
+}
+
+h4 {
+font-family: sans-serif;
+font: helvetica;
+font-weight: lighter;
+color: grey;
+font-Size: 3vw;
+text-transform: uppercase;
+}
+
+h3 {
+font-family: sans-serif;
+font: helvetica;
+font-weight: bold;
+color: #000000;
+font-Size: 4vw;
+text-transform: none;
+}
+
+ul {
+  color: #000000;
+  font-family: sans-serif;
+  font: helvetica;
+  font-Size: 2.5vw;
+  line-height: 3vw;
+}
+
+ol {
+  color: #000000;
+  font-family: sans-serif;
+  font: helvetica;
+  font-Size: 2.5vw;
+  list-style-position: inside;
+  line-height: 3vw;
+}
+
+li {
+  margin: 2vw 0;
+}
+
+.goals {
+  margin-left: -4vw;
+}
+
+p {
+  color: #000000;
+  font-Size: 2.5vw;
+  font-family: sans-serif;
+  line-height: 3vw;
+}
