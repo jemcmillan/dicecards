@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="100%" height="100%" viewBox="0 0 400 400" version="1.1">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <a xlink:href="https://jemcmillan.github.io/dicecards/13-ideate.html">
+    <rect stroke="#000000" opacity="0" x="0.5" y="0.5" width="400" height="400"/>
+    <text font-family="Helvetica" font-size="24" font-weight="normal" letter-spacing="0.0781828687" fill="#000000">
+      <tspan x="28.8590278" y="228">Direct</tspan>
+      <tspan x="8.94502316" y="257">Comms</tspan>
+    </text>
+    <text font-family="Helvetica" font-size="24" font-weight="normal" letter-spacing="0.0781828687" fill="#000000">
+      <tspan x="140.909867" y="62">Influencers</tspan>
+    </text>
+    <text font-family="Helvetica" font-size="24" font-weight="normal" letter-spacing="0.0781828687" fill="#000000">
+      <tspan x="110.023003" y="326">Experiences and</tspan>
+      <tspan x="125.519213" y="355">Engagements</tspan>
+    </text>
+    <text font-family="Helvetica" font-size="24" font-weight="normal" letter-spacing="0.0781828687" fill="#000000">
+      <tspan x="307" y="229">Passive</tspan>
+      <tspan x="307" y="258">Comms</tspan>
+    </text>
+    <rect stroke="#000000" fill="#000000" x="101.3" y="86.9" width="199" height="199"/>
+    <text font-family="Helvetica" font-size="24" font-weight="normal" letter-spacing="0.0781828687" fill="#FFFFFF">
+      <tspan x="139.151331" y="181.6">INTENDED </tspan>
+      <tspan x="138.477503" y="210.6">AUDIENCE</tspan>
+    </text>
+    <polygon stroke="#010000" fill="#FFFFFF" points="200.5 269 209 303.003759 192 303.003759"/>
+    <polygon stroke="#010000" fill="#FFFFFF" transform="translate(200.500000, 86.001880) scale(1, -1) translate(-200.500000, -86.001880) " points="200.5 69 209 103.003759 192 103.003759"/>
+    <polygon stroke="#010000" fill="#FFFFFF" transform="translate(101.001880, 194.500000) rotate(90.000000) translate(-101.001880, -194.500000) " points="101.00188 177.49812 109.50188 211.50188 92.5018797 211.50188"/>
+    <polygon stroke="#010000" fill="#FFFFFF" transform="translate(301.001880, 194.500000) scale(-1, 1) rotate(90.000000) translate(-301.001880, -194.500000) " points="301.00188 177.49812 309.50188 211.50188 292.50188 211.50188"/>
+  </a></g>
+</svg>
