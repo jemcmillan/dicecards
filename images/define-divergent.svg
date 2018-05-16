@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   width="401" height="399" viewBox="0 0 401 399" version="1.1">
+  <a xlink:href="https://jemcmillan.github.io/dicecards/06-define.html">
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <a xlink:href="https://jemcmillan.github.io/dicecards/06-define.html">
     <rect stroke="#000000" fill="#003366" x="0.5" y="0.5" width="400" height="398"/>
     <g transform="translate(49.000000, 3.000000)">
       <circle fill="#FFFF00" cx="20" cy="196" r="20"/>
@@ -22,6 +22,6 @@
     <text font-family="Helvetica" font-size="24" font-weight="normal" fill="#FFFF00">
       <tspan x="249" y="247">Empathy</tspan>
     </text>
-  </a>
   </g>
+    </a>
 </svg>

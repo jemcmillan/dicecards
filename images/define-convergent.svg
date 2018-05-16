@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="400" height="400" viewBox="0 0 400 400" version="1.1">
+  <a xlink:href="https://jemcmillan.github.io/dicecards/08-define.html">
+  <title>define-convergent</title>
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <rect stroke="#000000" fill="#003366" x="0.5" y="0.5" width="400" height="398"/>
+    <g transform="translate(71.000000, 23.000000)">
+      <circle fill="#FFFFFF" cx="195" cy="176" r="20"/>
+      <path d="M1 198.8L156 352.9 1 198.8ZM1 153.6L156 0 1 153.6Z" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square" transform="translate(78.497252, 176.441950) rotate(-180.000000) translate(-78.497252, -176.441950) "/>
+      <polygon fill="#FFFFFF" transform="translate(153.213203, 151.213203) rotate(-225.000000) translate(-153.213203, -151.213203) " points="153.2 136.2 168.2 166.2 138.2 166.2"/>
+      <polygon fill="#FFFFFF" transform="translate(153.213203, 201.213203) rotate(-315.000000) translate(-153.213203, -201.213203) " points="153.2 186.2 168.2 216.2 138.2 216.2"/>
+    </g>
+    <text font-family="Helvetica" font-size="24" font-weight="normal" fill="#FFFFFF">
+      <tspan x="273.8" y="248">Problem</tspan>
+      <tspan x="263.8" y="277">Statement</tspan>
+    </text>
+    <text font-family="Helvetica" font-size="24" font-weight="normal" fill="#FFFFFF">
+      <tspan x="49" y="207">Refine</tspan>
+    </text>
+  </g>
+</a>
+</svg>
