@@ -1,9 +1,10 @@
 /* Layout */
 
-.item1 { grid-area: header; margin-top: -1.7vw; background-color: #ffffff; height: 10vw; width: 100%; }
+.item1 { grid-area: header; margin-top: -1vw; background-color: #ffffff; height: 10vw; width: 100%; }
 .item2 { grid-area: dice; height: 25%; width: 25%; margin-top: -12vw; margin-left: 65vw;}
 .item3 { grid-area: title; margin-top: -5vw;}
-.item4 { grid-area: a; width: 100%; margin: auto; align-content: center;}
+.item4 { grid-area: a; width: 100%; margin: auto; }
+.item403 { grid-area: a; width: 100%; margin: auto; margin-top: 0;}
 .item5 { grid-area: b; width: 100%; margin: auto; }
 .item6 { grid-area: c; width: 100%; margin: auto; }
 .item7 { grid-area: d; width: 100%; margin: auto; }
@@ -34,9 +35,9 @@
     'header header header header header header'
     'dice dice dice dice dice dice'
     'title title title title title title'
-    'a a a b b b'
-    'c c c b b b'
-    'c c c b b b'
+    'a a b b b b'
+    'c c b b b b'
+    'c c b b b b'
     'd d d d d d'
     'e e e e e e'
     'footer footer footer footer footer footer';
@@ -67,7 +68,7 @@
     'header header header header header header'
     'dice dice dice dice dice dice'
     'title title title title title title'
-    'a a a b b b'
+    'a a b b b b'
     'd d d d d d'
     'c c c c c c'
     'e e e e e e'
@@ -90,8 +91,28 @@
   background-color: white;
   padding: 10px;
 }
+
+.grid6 {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'dice dice dice dice dice dice'
+    'title title title title title title'
+    'a a b b b b'
+    'c c c c d d'
+    'footer footer footer footer footer footer';
+  grid-gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+.card-number {
+  margin-top: -8.5vw;
+  margin-left: .5vw;
+}
+
 .dec {
-  width: 50%;
+  width: 75%;
   margin: auto;
 }
 
@@ -127,20 +148,20 @@ tr:nth-child(even) {
   margin-top: -10vw;
   margin-right: 2vw;
 }
+
+.goals {
+  margin-left: -4vw;
+}
+
 .number {
   height: 8%;
   width: 10%;
 }
 
 .page-title {
-  margin-top: -12.5vw;
+  margin-top: -9.5vw;
   margin-left: 12.5vw;
 }
-
-a.pt:link {color: blue; text-decoration: none; }
-a.pt:visited {color: grey; text-decoration: none; }
-a.pt:hover {color: blue; text-decoration: underline; }
-a.pt:active {color: black; }
 
 .group {
   line-height: 5%;
@@ -149,13 +170,10 @@ a.pt:active {color: black; }
 
 .tools {
   line-height: normal;
-
 }
 
-
-ul.no-bullet {
-  margin-left: -1.5vw;
-  list-style: none;
+.tighten {
+  line-height: 5px;
 }
 
 .button {
@@ -179,24 +197,17 @@ ul.no-bullet {
 
 .button1:hover {background-color: #e7e7e7;}
 
-/* unvisited link */
+a.pt:link {color: blue; text-decoration: none; }
+a.pt:visited {color: grey; text-decoration: none; }
+a.pt:hover {color: blue; text-decoration: underline; }
+a.pt:active {color: black; }
+
 a:link {
-    color: black;
+  color: #5d5061;
 }
 
-/* visited link */
-a:visited {
-    color: grey;
-}
-
-/* mouse over link */
 a:hover {
-    color: #003366;
-}
-
-/* selected link */
-a:active {
-    color: blue;
+color: #0000ff;
 }
 
 /* Headers */
@@ -204,26 +215,22 @@ h1 {
 font-family: sans-serif;
 font: helvetica;
 font-weight: bold;
-color: #5d5c61;
 font-Size: 6vw;
 text-transform: uppercase;
+}
+
+h1.card-number {
+  font-family: sans-serif;
+  font: helvetica;
+  color: white;
+  font-size: 3.5vw;
 }
 
 h2 {
 font-family: sans-serif;
 font: helvetica;
 font-weight: bold;
-color: #5d5c61;
 font-Size: 5vw;
-text-transform: uppercase;
-}
-
-h4 {
-font-family: sans-serif;
-font: helvetica;
-font-weight: lighter;
-color: grey;
-font-Size: 3vw;
 text-transform: uppercase;
 }
 
@@ -231,9 +238,30 @@ h3 {
 font-family: sans-serif;
 font: helvetica;
 font-weight: bold;
-color: #5d5c61;
 font-Size: 4vw;
 text-transform: none;
+}
+
+h4 {
+font-family: sans-serif;
+font: helvetica;
+font-weight: lighter;
+font-Size: 3vw;
+}
+
+h5 {
+font-family: sans-serif;
+font: helvetica;
+font-weight: bold;
+font-Size: 3vw;
+text-transform: uppercase;
+}
+
+p {
+  color: #000000;
+  font-Size: 2.5vw;
+  font-family: sans-serif;
+  line-height: 3vw;
 }
 
 ul {
@@ -257,13 +285,7 @@ li {
   margin: 2vw 0;
 }
 
-.goals {
-  margin-left: -4vw;
-}
-
-p {
-  color: #000000;
-  font-Size: 2.5vw;
-  font-family: sans-serif;
-  line-height: 3vw;
+ul.no-bullet {
+  margin-left: -1.5vw;
+  list-style: none;
 }
