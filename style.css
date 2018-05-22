@@ -100,6 +100,7 @@
     'title title title title title title'
     'a a b b b b'
     'c c c c d d'
+    'e e e e e e'
     'footer footer footer footer footer footer';
   grid-gap: 20px;
   background-color: white;
@@ -123,6 +124,7 @@
 /* table */
 table {
     font-family: arial, sans-serif;
+    font-size: 2.5vw;
     border-collapse: collapse;
     width: 100%;
 }
@@ -147,6 +149,10 @@ tr:nth-child(even) {
   text-transform: uppercase;
   margin-top: -10vw;
   margin-right: 2vw;
+}
+.inline-graphic {
+  margin-left: 5vw;
+
 }
 
 .goals {
