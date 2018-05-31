@@ -221,7 +221,7 @@ h1 {
 font-family: sans-serif;
 font: helvetica;
 font-weight: bold;
-font-Size: 6vw;
+font-Size: 5vw;
 text-transform: uppercase;
 }
 
@@ -236,7 +236,7 @@ h2 {
 font-family: sans-serif;
 font: helvetica;
 font-weight: bold;
-font-Size: 5vw;
+font-Size: 4vw;
 text-transform: uppercase;
 }
 
@@ -244,7 +244,7 @@ h3 {
 font-family: sans-serif;
 font: helvetica;
 font-weight: bold;
-font-Size: 4vw;
+font-Size: 3vw;
 text-transform: none;
 }
 
@@ -252,39 +252,39 @@ h4 {
 font-family: sans-serif;
 font: helvetica;
 font-weight: lighter;
-font-Size: 3vw;
+font-Size: 2.5vw;
 }
 
 h5 {
 font-family: sans-serif;
 font: helvetica;
 font-weight: bold;
-font-Size: 3vw;
+font-Size: 2.5vw;
 text-transform: uppercase;
 }
 
 p {
   color: #000000;
-  font-Size: 2.5vw;
+  font-Size: 2vw;
   font-family: sans-serif;
-  line-height: 3vw;
+  line-height: 2.5vw;
 }
 
 ul {
   color: #000000;
   font-family: sans-serif;
   font: helvetica;
-  font-Size: 2.5vw;
-  line-height: 3vw;
+  font-Size: 2vw;
+  line-height: 2.5vw;
 }
 
 ol {
   color: #000000;
   font-family: sans-serif;
   font: helvetica;
-  font-Size: 2.5vw;
+  font-Size: 2vw;
   list-style-position: inside;
-  line-height: 3vw;
+  line-height: 2.5vw;
 }
 
 li {
@@ -294,4 +294,10 @@ li {
 ul.no-bullet {
   margin-left: -1.5vw;
   list-style: none;
+}
+
+.checkbox {
+	display:inline-block;
+	position: relative;
+	vertical-align:middle;
 }

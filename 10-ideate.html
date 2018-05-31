@@ -11,6 +11,13 @@
   <meta property="og:description" content="This site is a collection of cards describing the DICE Model of communication."/>
   <meta property="og:url" content="https://jemcmillan.github.io/dice/index.html" />
   <link rel="stylesheet" href="style.css">
+  <script>
+  $("li").click(function (e) {
+        var cb = $(this).find(":checkbox")[0];
+        if (e.target != cb) cb.checked = !cb.checked;
+        $(this).toggleClass("selected", cb.checked);
+    });
+  </script>
   </head>
 <body>
   <div class="grid2">
@@ -114,18 +121,18 @@
      <div class="item7">
        <section id="selection-criteria">
          <p><b>Idea Selection Criteria</b><p>
-           <ul>
-             <li>Does it fit with people's needs? Is there demand?</li>
-             <li>Does it really meet the goals set initially?</li>
-             <li>Does it meet the requirements in our problem statement? </li>
-             <li>Does it answer our “How Might We” questions in a satisfying way? </li>
-             <li>Is it different enough from what exists to add additional value? </li>
-             <li>Do we have access to the budget—enough to implement even partially? </li>
-             <li>Can we get approval from decision makers? </li>
-             <li>Can this idea become a habit or a trend?  </li>
-             <li>Does the idea fulfill a practical need? </li>
-             <li>Will we be able to roll it out with the available resources? </li>
-             <li>Is the technology available? </li>
+           <ul style="list-style-type:none">
+             <li><input type="checkbox" class="checkbox"> Does it fit with people's needs? Is there demand?</li>
+             <li><input type="checkbox" class="checkbox"> Does it really meet the goals set initially?</li>
+             <li><input type="checkbox" class="checkbox"> Does it meet the requirements in our problem statement? </li>
+             <li><input type="checkbox" class="checkbox"> Does it answer our “How Might We” questions in a satisfying way? </li>
+             <li><input type="checkbox" class="checkbox"> Is it different enough from what exists to add additional value? </li>
+             <li><input type="checkbox" class="checkbox"> Do we have access to the budget—enough to implement even partially? </li>
+             <li><input type="checkbox" class="checkbox"> Can we get approval from decision makers? </li>
+             <li><input type="checkbox" class="checkbox"> Can this idea become a habit or a trend?  </li>
+             <li><input type="checkbox" class="checkbox"> Does the idea fulfill a practical need? </li>
+             <li><input type="checkbox" class="checkbox"> Will we be able to roll it out with the available resources? </li>
+             <li><input type="checkbox" class="checkbox"> Is the technology available? </li>
            </section>
         </div>
 
