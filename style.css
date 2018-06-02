@@ -301,3 +301,18 @@ ul.no-bullet {
 	position: relative;
 	vertical-align:middle;
 }
+
+table#t01 tr:nth-child(even) {
+    background-color: none;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: none;
+}
+table#t01 td {
+    font-size: 2vw;
+    padding: 5px;
+    border-color: #b1a296;
+    border-width: thin;
+    color: black;
+    background-color: white;
+}
