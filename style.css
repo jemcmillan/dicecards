@@ -316,3 +316,23 @@ table#t01 td {
     color: black;
     background-color: white;
 }
+
+table#scale {
+  font-family: arial, sans-serif;
+  font-size: 1.5vw;
+  border-collapse: collapse;
+  width: 50%;
+  line-height: 1.5vw;
+}
+
+table#scale td {
+    font-size: 1.5vw;
+    padding: 5px;
+    text-align: center;
+}
+
+table#scale th {
+    font-size: 1.5vw;
+    padding: 5px;
+    text-align: center;
+}
